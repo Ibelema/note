@@ -10,6 +10,7 @@
         {% endfor %}
     </ul>
 
-    <a href="{% url 'learning_logs:new_post' %}">Add a new post:</a>
+    <a href="{% url 'my_blog:new_post' %}">Add a new post:</a>
+    <a href="{% url 'my_blog:edit' article.id %]">Edit Article></a>
 
-{% endblock %}
+    {% endblock %}
